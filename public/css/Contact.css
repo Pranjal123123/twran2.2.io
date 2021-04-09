@@ -1,0 +1,55 @@
+body{
+ background-color: #EFEFEF;
+} 
+
+
+lottie-player{
+  margin:0 auto;
+}
+/*-----------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+
+/*////////////////////  contact us info ,////////////////////////*/
+/*////////////////////  contact us info ,////////////////////////*/
+
+.container{
+   font-family: 'Oswald', sans-serif;
+width: 80vw;
+height: initial;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+}
+.cont{
+  height: initial;
+}
+.heading{
+   font-family: 'Oswald', sans-serif;
+  width: 20vw;
+  margin-left: 40vw;
+  margin-top: 5vh;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  text-align: center;
+
+}
+
+.contact {
+  padding-top: 21vh;
+  font-size: 1em;
+}
+
+.contact-deatail{
+  font-size: 1.1em;
+}
+
+.contact-deatail-main{
+   font-size: 1.3em;
+   font-weight: bold;
+}
+@media screen and (max-width: 990px){
+.container{
+height: initial;
+}
+}

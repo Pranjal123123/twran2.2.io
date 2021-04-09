@@ -1,0 +1,436 @@
+.parallax {
+
+ background-image: url("../img/macc.jpg");
+ width: 100vw;
+  height: initial;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10%;
+ }
+.parallax h2{
+   color: white;
+  text-shadow: 2px 2px black;
+  font-weight: 800;
+  font-size: 3em;
+  padding-top: 5rem;
+}
+.parallax h3{
+    color: white;
+  text-shadow: 2px 2px black;
+  font-weight: 800;
+  font-size: 3em;
+  padding-top: 2rem;
+}
+
+
+.parallax p{
+  color: white;
+   padding: 30px 20px; 
+   padding-bottom: 5px;
+   text-align: center;
+   text-shadow: 2px 2px black;
+   font-size: 1.5em;
+   font-weight: 400;
+
+}
+.parallax p.sp-text{
+   color: white;
+   padding: 100px 20px; 
+   text-align: center;
+   text-shadow: 2px 2px black;
+   font-size: 1.5em;
+   font-weight: 400;
+
+ }
+#shift-at-top{
+  margin-top: -5vh;
+}
+#mar-from-top{
+margin-top: 16.5vh; 
+}
+#mar-from-top-write{
+  margin-top: -20vh;
+}
+.column img{
+  height: 29vh;
+}
+.column{
+  width:18vw;
+  height: 32vh;
+   box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -o-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   margin-left: 5%;
+   margin-top: 4%;
+   border: 10px solid white;
+}
+.column-wite{
+  width:18vw;
+  height: 20vh;
+   box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -o-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   margin-left: 5%;
+   margin-top: 3%;
+   border: 10px solid white;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   font-size: 0.8rem;
+}
+.containerfirst{
+  display: flex;
+   flex-direction:row;
+   margin-left: 11vw;
+}
+.container{
+width: 80%;
+height: 116vh;
+background-color:#e3dac9;
+margin-top: 10vh;
+}
+  .fullbody{
+    width: 100%;
+    height: 10vh; 
+    padding-left: 5%;
+   }
+    .Navbar{
+    padding-left: 3vw;
+    position: fixed;
+   
+   }
+  nav{
+   background-color:  #a99a86 !important;
+   height: 8.5vh;
+   border-radius: 0 0 45px 45px;
+   width: 84vw;
+   border-bottom: 8px solid black;
+  }
+.navbar-toggler .fas{
+  background: none;
+  border-radius: 0;
+  height: 20px;
+   width: 20px;
+   line-height: 20px;
+   border: none;
+}
+ .navbar-nav a {
+   display: block;
+   height: 6.5vh;
+  font-weight: bold;
+  text-align: center;
+   overflow: hidden;
+  text-decoration: none;
+ 
+}
+.navbar-nav{
+   background-color:  #a99a86 !important;
+   border-radius:  0 0 45px 45px;
+}
+
+li a{
+ margin-left:50px; 
+}
+
+  .navbar-brand{
+  display: block;
+  text-align: center;
+  color: white!important;
+  text-decoration: none;
+  font-family: Algerian;
+  height: 7.7vh;
+  font-size: 1.4em;
+  padding-top: 1.5vh;
+  width: 20vw;
+  font-weight: bold;
+  background-color: black!important;
+  border-radius:  0 0 0 43px;
+ margin-left: -1.5vw;
+}
+.ml12 {
+     color:white;
+     margin-top: 14%;
+     font-weight: 200;
+     font-size: 0.8em;
+     text-transform: uppercase;
+     letter-spacing: 0.5em;
+     margin-left: -530px;
+}
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.location p,.envelop p,.phone p{
+  color: white;
+  display: inline-flex;
+  margin-left: 2%;
+}
+
+.place {
+
+
+  padding: 3px;
+  color: black;
+  font-size: 16px;
+  background:white ;
+  min-width: 15vw;
+  border-radius: 5px;
+  border: none;
+ 
+}
+.button:hover {
+
+  opacity: 0.5;
+
+}
+.button {
+
+  padding: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  width: 6vw;
+
+}
+.phone,.envelop{
+   margin: 15px 0 ;
+}
+.location{
+   margin-top: 40px;
+}
+.foot{
+  width:100vw;
+  height: 60vh;
+  background-color: black;
+
+
+}
+.leftfoot{
+  width:50vw;
+  float: left;
+}
+.rightfoot{
+  width:50vw;
+  float: right;
+  padding-left: 15%;
+}
+.logoc{
+  padding-top: 5%;
+  margin-left: 25%;
+  width: 15vw;
+  position: relative;
+}
+.rights-text{
+ color: white;
+ font-size: .6rem;
+ margin-left: 13vw;
+}
+.rights-text2{
+ color: white;
+ font-size: .9rem;
+ padding-top: 1.5%;
+ margin-left: 13vw;
+}
+.fas{
+   text-align: center;
+   background: white;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   line-height: 40px;
+
+}
+.rowone{
+  display: flex;
+  flex-direction:row;
+}
+@media screen and (max-width: 990px){
+  /*nav started*/
+  .Navbar{
+    padding-left:0;   
+    width: 100%;
+   }
+   nav{  
+   height: 10vh;
+   width: 100%;
+   border-radius: 0 0 0 0;
+   box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   -o-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   margin-left: -5%;
+  }
+  .nav-item{
+ font-size: 0.6rem;
+ padding-top: 3%;
+ border-bottom: 0.1px solid white;
+   }
+   .navbar-nav #mac{
+    border-bottom: none;
+   }
+ .navbar-nav{
+   background-color: #f9e8d8 !important;
+   margin-top:0.07rem;
+   border-radius: 0 0 35px 35px;
+}
+
+.nav-item:hover{
+  background-color: white !important;
+padding-top: 4%;
+}
+
+.navbar-brand{
+  margin-left: 6%;
+  border-radius: 0;
+  background: none!important;
+  font-size: 1rem;
+  margin-top:0.1rem;
+  letter-spacing: 2px;
+ font-family: 'Dancing Script', cursive;
+}
+li a{
+ margin-left: 0; 
+}
+.ml12 {
+ font-size: 0.6em;
+     margin-left: -270px;
+     padding-top: 5.5vh;
+}
+.logoc{
+  width: 25vw;
+}
+.rights-text{
+ font-size: .5rem;
+}
+.rights-text2{
+ font-size: .8rem;
+}
+.leftfoot{
+  width:40%;
+  margin-top:7vh; 
+  height: initial;
+}
+.rightfoot{
+  width:60%;
+  height: initial;
+  display: flex;
+  flex-direction: column;
+}
+
+.fas{
+   height: 2rem;
+   width: 2rem;
+   text-align: center;
+    line-height: 33px;
+}
+.location p,.phone p,.envelop p{
+  font-size: .7rem;
+}
+.place {
+  font-size:.8rem;
+  margin-left: -15%;
+   width: 29vw;
+}
+.button {
+  font-size: .8rem;
+  width: 12vw;
+
+}
+.parallax {
+
+ }
+.parallax h2{
+  text-shadow: 1px 1px black;
+  border-bottom: 2px solid white;
+  width: 60vw;
+  font-weight:bold;
+  font-size: 1.8em;
+  padding-top: 5rem;
+  margin-left:20vw; 
+}
+.parallax h3{
+text-shadow: 1px 1px black;
+  font-size: 1.8em;
+  padding-top: 1rem;
+  border-bottom: 2px solid white;
+  margin-left:23vw;
+  width: 55vw; 
+}
+
+
+.parallax p{ 
+   text-shadow: 1px 1px black;
+   font-size: 1rem;
+   font-weight:bold;
+
+}
+.parallax p.sp-text{
+   padding: 40px 20px; 
+   text-shadow: 1px 1px black;
+   font-size: 1rem;
+   font-weight: bold;
+ }
+
+
+
+
+
+
+
+
+
+#latern-shift{
+  margin-top: 11vh;
+  margin-left:110%;  /*  */
+}
+#shift-at-top{
+  margin-top: 5vh;
+}
+#mar-from-top{
+margin-top: 20vh;
+}
+#mar-from-top-write{
+  margin-top: -37vh;
+}
+.column img{
+  height: 17vh;
+}
+.column{
+  width:30vw;
+  height: 19vh;
+   margin-left: 4vw;
+   margin-top: 0;
+   border: 8px solid white;
+}
+.column-wite{
+  width:30vw;
+  height: 12vh;
+   margin-left: 4vw;
+   margin-top: 125%;
+   border: 8px solid white;
+   font-size: 0.5rem;
+}
+.containerfirst{
+  display: flex;
+   flex-direction:row;
+   margin-left: 0.5vh;
+}
+.container{
+width: 80%;
+height: initial;
+margin-top: 3vh;
+}
+.rowone{
+  display: flex;
+  flex-direction: column;
+}
+}
